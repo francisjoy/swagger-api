@@ -1,0 +1,26 @@
+app:
+    name: swagger-api
+    code: swagger-api
+    notify: fjoy@ecloudcontrol.com
+    
+build:
+    version: 4.15
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: swaggerapi-4.15
+    
+deploy:
+    context: francisjoy/DEV
+    replicas: 1
+    port:
+    - 8080 
+    
+properties:
+    API_KEY: 
+    SWAGGER_JSON: /app/swagger.json 
+    BASE_URL: 
+    SWAGGER_URL: 
+    WAGGER_CONFIG: 
+    
+    revision : 0
