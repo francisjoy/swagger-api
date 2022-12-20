@@ -17,10 +17,11 @@ deploy:
     - 8080 
     
 properties:
-    API_KEY: 
+    API_KEY:
+        vault: API_KEY
     SWAGGER_JSON: /app/swagger.json 
-    BASE_URL: 
-    SWAGGER_URL: 
-    WAGGER_CONFIG: 
+    #BASE_URL: 
+    #SWAGGER_URL: 
+    #WAGGER_CONFIG: 
     
     revision : 0
