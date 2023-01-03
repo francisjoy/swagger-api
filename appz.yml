@@ -19,7 +19,7 @@ deploy:
 properties:
     API_KEY:
         vault: API_KEY
-    SWAGGER_JSON: /app/swagger.json 
+    SWAGGER_JSON: /appz/server/swagger.json 
     #BASE_URL: 
     #SWAGGER_URL: 
     #WAGGER_CONFIG: 
